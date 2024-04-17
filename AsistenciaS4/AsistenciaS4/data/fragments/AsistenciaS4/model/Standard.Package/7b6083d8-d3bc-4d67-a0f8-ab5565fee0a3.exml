@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="asistencias4" version="4">
+  <OBJECT>
+    <ID name="asistencias4" mc="Standard.Package" uid="7b6083d8-d3bc-4d67-a0f8-ab5565fee0a3"/>
+    <PID name="AsistenciaS4" mc="Standard.Project" uid="e7ae3884-acaa-4e40-a7f4-baa8451e2b72"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[asistencias4]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Guardabosques" mc="Standard.Class" uid="ab9aa386-a0ed-48b1-b24d-9cb3590eae85"/>
+        <COMPID name="Pajaro" mc="Standard.Class" uid="e5c3359e-a8af-4dc7-bc4d-40c07bbba769"/>
+        <COMPID name="Escenario" mc="Standard.Class" uid="0f527410-7b28-4ddd-8b9e-de1b4edb2b14"/>
+        <COMPID name="PVector" mc="Standard.Class" uid="c188d112-1ea9-470e-83ba-ef46baada577"/>
+        <COMPID name="PImage" mc="Standard.Class" uid="257ca26e-5541-4f82-9640-3f7b2c9cb99d"/>
+        <COMPID name="Color" mc="Standard.Class" uid="4b6e118a-df95-45e2-ae9f-2094e1722599"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Asistencia4" mc="Standard.ClassDiagram" uid="5ef3ac38-a61e-40f9-b76b-fdb86753bf72"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

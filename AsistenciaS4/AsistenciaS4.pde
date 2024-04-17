@@ -6,11 +6,12 @@ private Pajaro halcon;
 
 public void setup(){
   size (800, 660);
+  jungla = new Escenario(new PVector(0, 0));
   
-  jungla = new Escenario();
   player = new Guardabosques();
   player.setPosicion(new PVector(width/2, 538));
-  player.setVelocidad(new PVector(40, 0));
+  player.setMovimiento(new PVector(40, 0));
+  
   halcon = new Pajaro(new PVector(50, 100), new PVector(10,0));
   
 }

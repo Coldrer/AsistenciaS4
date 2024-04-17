@@ -2,11 +2,7 @@ class Pajaro{
   private PVector posicion;
   private PImage ave;
   private PVector movimiento;
-  
-  public Pajaro(){
-    ave = loadImage("Pajaro.jpg");
-  }
-  
+    
   public Pajaro(PVector posicion, PVector movimiento){
     this.posicion = posicion;
     this.movimiento = movimiento;

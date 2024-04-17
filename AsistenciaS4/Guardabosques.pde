@@ -41,11 +41,11 @@ class Guardabosques{
     this.posicion = posicion;
   }
   
-  public PVector getVelocidad(){
+  public PVector getMovimiento(){
     return this.movimiento;
   }
   
-  public void setVelocidad(PVector movimiento){
+  public void setMovimiento(PVector movimiento){
     this.movimiento = movimiento;
   }
   
